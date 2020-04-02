@@ -4,11 +4,11 @@ controller = PostController.new
 while true
     puts "What would you like to do?"
     puts "1 - View all posts"
-    puts "1 - View a single post"
-    puts "2 - Create a new post"
-    puts "3 - Edit a post"
-    puts "4 - Delete a post"
-    puts "5 - Exit"
+    puts "2 - View a single post"
+    puts "3 - Create a new post"
+    puts "4 - Edit a post"
+    puts "5 - Delete a post"
+    puts "6 - Exit"
     
     choice = gets.chomp.to_i
     
