@@ -15,7 +15,7 @@ while true
     when 1
         controller.show
     when 2
-        controller.new
+        controller.create
     when 3
         controlled.edit
     when 4

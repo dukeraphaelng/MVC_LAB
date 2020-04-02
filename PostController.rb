@@ -6,7 +6,7 @@ class PostController
 
     end
 
-    def new
+    def create
 
     end
 
