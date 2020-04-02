@@ -3,7 +3,8 @@ controller = PostController.new
 
 while true
     puts "What would you like to do?"
-    puts "1 - View a post"
+    puts "1 - View all posts"
+    puts "1 - View a single post"
     puts "2 - Create a new post"
     puts "3 - Edit a post"
     puts "4 - Delete a post"
@@ -13,14 +14,16 @@ while true
     
     case choice
     when 1
-        controller.show
+        controller.index
     when 2
-        controller.create
+        controller.show
     when 3
-        controlled.edit
+        controller.create
     when 4
-        controller.destroy
+        controlled.edit
     when 5
+        controller.destroy
+    when 6
         break
     else
         puts "Please pick a valid choice"

@@ -2,6 +2,14 @@ require_relative("PostModel")
 require_relative("PostView")
 
 class PostController
+    def initialize
+
+    end
+    
+    def index
+
+    end
+
     def show
 
     end
