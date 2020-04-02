@@ -12,15 +12,15 @@ while true
     choice = gets.chomp.to_i
     
     case choice
-    when 1:
+    when 1
         controller.show
-    when 2:
+    when 2
         controller.new
-    when 3:
+    when 3
         controlled.edit
-    when 4:
+    when 4
         controller.destroy
-    when 5:
+    when 5
         break
     else
         puts "Please pick a valid choice"
