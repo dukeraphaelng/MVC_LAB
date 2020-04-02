@@ -1,0 +1,4 @@
+class PostModel
+
+
+end
