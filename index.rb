@@ -20,7 +20,7 @@ while true
     when 3
         controller.create
     when 4
-        controlled.edit
+        controller.edit
     when 5
         controller.destroy
     when 6
